@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+body{
+    background: linear-gradient(135deg, #3887BE, #52D3D8);
+    height: 100vh;
+    width:100%;
+}
+.content{
+    margin: 150px auto auto 100px ;
+}
+.content > h1{
+    line-height: 70px;
+    font-size: 50px;
+    color: #fff;
+}
+.boxcontent{
+    margin-top:30px;
+    background: linear-gradient(135deg, #8ACDD7, #96EFFF);
+    height:100px;
+    width:500px;
+    border-radius: 5px;
+    display: flex;
+}
+.boxcontent > input,button {
+    margin: 25px auto auto 25px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.boxcontent > button{
+    background-color: #F4F27E;
+    width:100px;
+    cursor: pointer;
+}
+.boxcontent > input{
+    text-align:initial;
+    width:300px;
+    position: relative;
+}
+.boxcontent > input::-webkit-calendar-picker-indicator{
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    position:absolute;
+    height:auto;
+    width:auto;
+    background-position: calc(100% - 10px);
+    background-size: 30px;
+    cursor: pointer;
+}
+.message{
+    margin: 20px 0px 0px 0px;
+    color: #fff;
+    font-size: 20px;
+}
+.message span{
+    color:#F4F27E;
+}
